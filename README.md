@@ -32,9 +32,9 @@ You are tasked with developing an **Incident Reporting Tool** using **Angular** 
 #### **3. User Interface (15%)**
 
 - **Admin UI Features:**  
-  - Dashboard: Displays all incidents categorized by status (Open, In Progress, Resolved).  
-  - Forms for assigning incidents to reporters and marking incidents as resolved.  
-  - List of reporters with their assigned incidents.  
+  - Dashboard(inciden-tlist): Displays all incidents categorized by status (Open, In Progress, Resolved).  
+  - (by click on incdent i incident list)Forms for assigning incidents to reporters and marking incidents as resolved.  
+  - (assign incidents)List of reporters with their assigned incidents.  
 
 - **Reporter UI Features:**  
   - Dashboard: Displays incidents reported by them with details like description, priority, and status.  

@@ -5,6 +5,7 @@ import { routes } from './app.routes';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from '../environments/environment.development';
+import { HttpClient } from '@angular/common/http';
 
 export const appConfig: ApplicationConfig = {
   providers: [
