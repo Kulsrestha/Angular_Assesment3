@@ -1,0 +1,20 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <h2>Report an incident</h2>
+        <label for="exampleInputEmail1">Incident Title</label>
+        <input type="text" id="title" [(ngModel)]="incident.title" name="title" required />
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Description</label>
+        <input type="text" id="description" [(ngModel)]="incident.description" name="description" required />
+    </div>
+    <div>
+    <label for="cars">Choose a status</label>
+        <select name="status">
+            <option value="open">Open</option>
+            <option value="inProgress">In Progress</option>
+            <option value="closed">Closed</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
